@@ -1,5 +1,11 @@
+import HomeHeader from "@/components/HomeHeader";
+
 const Home = () => {
-  return <div className=" text-red-600 font-serif text-5xl">Home</div>;
+  return (
+    <>
+      <HomeHeader />
+    </>
+  );
 };
 
 export default Home;
